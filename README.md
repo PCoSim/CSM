@@ -1,5 +1,12 @@
 # CSM
-Co-Simulation Master
+Co-Simulation Master that dynamically loads a plugin.
+
+Main takes an path argument to a service provider jar providing the
+implementation of the IDoStepPlugin service from PluginInterfaces.
+
+The service provider is loaded and executed.
+
+Requires the PluginInterfaces in class path
 
 ## SPI
 spi is Service Provider Interface. 
